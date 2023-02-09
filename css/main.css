@@ -1,0 +1,52 @@
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#box1 {
+    background-color: pink;
+    height: 300px;
+}
+
+#box2 {
+    background-color: red;
+    height: 300px;
+}
+
+#box3 {
+    display: none;
+}
+
+#box4 {
+    display: none;
+}
+
+@media screen and (min-width:640px) {
+    #column-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #box1 {
+        width: 25%;
+        background-color: blue;
+    }
+
+    #box2 {
+        width: 25%;
+        background-color: purple;
+    }
+
+    #box3 {
+        display: block;
+        width: 25%;
+        background-color: grey;
+    }
+
+    #box4 {
+        display: block;
+        width: 25%;
+        background-color: brown;
+    }
+}
